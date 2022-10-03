@@ -6,11 +6,8 @@ engels_nederlands = { "last":"laatste", "week":"week", "the":"de",
 "leidend", "modern":"modern", "composer":"componist",
 "composers":"componisten", "two":"twee", "shed":"schuur",
 "sheds":"schuren" }
-vertaalde_zin = ""
-zin = input("Geef een zin in het engels: ")
-woorden = zin.split()
-for woord in woorden:
-    if woord in engels_nederlands:
-        vertaalde_zin += f"{engels_nederlands[woord]} "
-print(vertaalde_zin)
-
+d_swap = {}
+key_value_dict = list(engels_nederlands.items())
+for key,value in key_value_dict:
+    d_swap = {value : key for key, value in engels_nederlands.items()}
+print(d_swap)
