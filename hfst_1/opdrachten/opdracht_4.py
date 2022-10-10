@@ -14,7 +14,7 @@ dict = {
 dict["belgie"]["provincie"]["info"] = dict["belgie"]["provincie"].pop("weetjes")
 print(dict)
 
-""" Niveau 2 """
+""" Niveau 3 """
 extra_info = [  ["mannen", 49.77], 
                 ["vrouwen", 50.23], 
                 ["hoofdstad", "hasselt"] ]
