@@ -1,0 +1,8 @@
+{"maandag": ["school"],
+"dinsdag": ["werken", "sporten"], 
+"woensdag": ["school", "sport"], 
+"donderdag": ["school"], 
+"vrijdag": ["school", "tennis"], 
+"zaterdag": ["tennis"], 
+"zondag": ["familie-uitstap"]
+}
