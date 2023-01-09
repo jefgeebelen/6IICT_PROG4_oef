@@ -1,7 +1,7 @@
 import requests, json
 
-client_id = "Vervang door eigen client id (string)"
-client_secret = "vervang door eigen client secret (string)"
+client_id = "a3a23600c3724b958eba75a9fed70648"
+client_secret = "91ff874d46c346fba120246a23fb2153"
 
 # Herinner je dat een API gewoon een speciale URL is...
 # Via deze URL kunnen we ons inlogtoken aanvragen.
