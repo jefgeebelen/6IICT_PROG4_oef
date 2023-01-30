@@ -1,11 +1,18 @@
-# Importeer tkinter module. Geef naam tk.
 import tkinter as tk
 
-# Maak een lege GUI aan.
 venster = tk.Tk()
 
-# TODO: maak het roosterpatroon van oefen mee 4. 
+# Functie maakt een label aan wanneer opgeroepen.
+def knop_klik():
+    label = tk.Label(master=venster, text="Goed gedaan!")
+    label.pack()
 
+# Knop aanmaken.
+    # master: geef aan tot welke GUI de knop behoort.
+    # text: boodschap van de knop.
+    # command: aan welke functie is de knop gelinkt.
+knop = tk.Button(master=venster, text="Klik op mij!", command=knop_klik)
 
-# Maak de GUI zichtbaar op de computer.
+knop.pack()
+
 venster.mainloop()

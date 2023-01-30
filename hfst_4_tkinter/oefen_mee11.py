@@ -12,8 +12,12 @@ veld.grid(row=0, column=0)
 
 # TODO: functie aanmaken gelinkt aan Button knop.
 #       Doel van functie is toevoegen van Entry veld aan Label onder de knop.
-
-knop = tk.Button(master=venster, command=, text="Voeg toe aan string:", width=50)
+def label_toevoegen():
+    global woord
+    woord += veld.get()
+    label = tk.Label(master=venster, text=woord, height=2,)
+    label.grid(row=2, column=0, pady=10, padx= 10)
+knop = tk.Button(master=venster, command=label_toevoegen, text="Voeg toe aan string:", width=50) 
 knop.grid(row=1, column=0, pady=10, padx= 10)
 
 # Maak de GUI zichtbaar op de computer.
