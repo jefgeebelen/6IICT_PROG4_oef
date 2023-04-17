@@ -175,3 +175,8 @@ cython_debug/
 !/README.md/
 yolov3_tiny.weights
 yolov3.weights
+<<<<<<< HEAD
+=======
+yolov3_tiny.weights
+yolov3-tiny-custom.weights
+>>>>>>> b7e78099e2b4de4770dbba571ca9b46b4fb3ac5e
