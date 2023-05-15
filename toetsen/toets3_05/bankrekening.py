@@ -23,7 +23,7 @@ class Bankrekening:
     def overschrijven(self, bedrag, andere_rekening):
         if isinstance(andere_rekening, Bankrekening):
             self.geld -= bedrag
-            andere_rekening.storten(bedrag, "") 
-            print(f"{self.eigenaar} stort {bedrag} euro naar {andere_rekening} ")
+            andere_rekening.geld += bedrag
+            print(f"{self.eigenaar} stort {bedrag} euro naar {andere_rekening.eigenaar} ")
         else:
             print("Geen geldige rekening meegegeven.")
