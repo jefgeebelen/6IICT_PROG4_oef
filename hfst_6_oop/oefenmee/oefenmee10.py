@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 class Hond:
     locaties = ["living", "tuin", "buren"]
@@ -20,3 +21,5 @@ hond_3 = Hond("Ranger")
 hond_1.ziet_hond(hond_2)
 hond_1.ziet_hond(hond_3)
 hond_2.ziet_hond(hond_3)
+=======
+>>>>>>> b589509181c219c35cc62476feae879b73993d8c

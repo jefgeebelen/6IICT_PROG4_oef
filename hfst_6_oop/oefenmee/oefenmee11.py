@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Hond:
     def __init__(self, naam):
         self.naam = naam
@@ -37,3 +38,5 @@ persoon_2.koop_hond(hond_1)
 
 print(persoon_1.is_eigenaar(hond_1))
 print(persoon_2.is_eigenaar(hond_1)) 
+=======
+>>>>>>> b589509181c219c35cc62476feae879b73993d8c
