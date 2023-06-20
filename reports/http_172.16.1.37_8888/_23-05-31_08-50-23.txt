@@ -1,0 +1,28 @@
+# Dirsearch started Wed May 31 08:50:42 2023 as: C:\Users\GEJE051205\Documents\programeren\6IICT_PROG4_oef\dirsearch\dirsearch.py -w C:\Users\GEJE051205\Documents\programeren\6IICT_PROG4_oef\hfst_7_hacken\dirsearch_woordenboek.txt -u http://172.16.1.37:8888
+
+404   558B   http://172.16.1.37:8888/app/config/adminConf.json
+404   550B   http://172.16.1.37:8888/app/composer.json
+404   550B   http://172.16.1.37:8888/app/composer.lock
+404   541B   http://172.16.1.37:8888/back.sql
+404   557B   http://172.16.1.37:8888/fantastico_fileslist.txt
+404   542B   http://172.16.1.37:8888/gbpass.pl
+404   545B   http://172.16.1.37:8888/Gemfile.lock
+302     2KB  http://172.16.1.37:8888/home.php    -> REDIRECTS TO: .
+404   542B   http://172.16.1.37:8888/login.cgi
+404   542B   http://172.16.1.37:8888/login.asp
+404   542B   http://172.16.1.37:8888/login.htm
+404   546B   http://172.16.1.37:8888/magic.default
+404   553B   http://172.16.1.37:8888/magmi/conf/magmi.ini
+404   548B   http://172.16.1.37:8888/mysql_debug.sql
+404   546B   http://172.16.1.37:8888/mysqldump.sql
+404   546B   http://172.16.1.37:8888/mysqlitedb.db
+404   547B   http://172.16.1.37:8888/netadmin.shtml
+404   550B   http://172.16.1.37:8888/php-fpm/error.log
+404   554B   http://172.16.1.37:8888/php-fpm/www-error.log
+404   543B   http://172.16.1.37:8888/readme.mkd
+404   543B   http://172.16.1.37:8888/README.TXT
+404   543B   http://172.16.1.37:8888/README.txt
+404   543B   http://172.16.1.37:8888/Readme.txt
+404   543B   http://172.16.1.37:8888/ReadMe.txt
+200   205B   http://172.16.1.37:8888/todo.txt
+404   556B   http://172.16.1.37:8888/uploads/affwp-debug.log

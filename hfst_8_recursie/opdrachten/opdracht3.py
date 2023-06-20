@@ -1,5 +1,5 @@
 """ Niveau 1: zoek aantal bestanden in een hoofdmap. """
-
+import os
 # Cijfers geven aantal bestanden aan. Mappen zijn niet meegeteld.
 print( doorzoek_map("hfst_4_tkinter") )     # 40 
 print( doorzoek_map("hfst_7_hacken") )      # 553 
